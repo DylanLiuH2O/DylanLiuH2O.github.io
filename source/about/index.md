@@ -8,7 +8,7 @@ comments: false
 
 如果你想要和我一起探讨问题，可以通过下面的联系方式找到我。
 
-<div align="center"><img src="/images/qq2.jpg" style="zoom:50%;" /></div>
+<div align="center"><img src="index/qq.jpg" style="zoom:50%;" /></div>
 
 
 
