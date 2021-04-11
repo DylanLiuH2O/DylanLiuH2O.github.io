@@ -18,13 +18,13 @@
 # 网站图标
 favicon:
   enable: true
-  icon: /images/favicon.png
-  touch_icon: /images/favicon.png
+  icon: /images/2.jpg
+  touch_icon: /images/2.jpg
 
 # 用户头像与昵称
 avatar:
-  author_photo: /images/avatar.png
-  author_nickname: Oranges
+  author_photo: /images/2.jpg
+  author_nickname: Dylan
   path: /
 
 # Google 分析
@@ -122,6 +122,10 @@ friends:
   -
     nickname: Hexo
     site: https://hexo.io/
+    meta:
+  -
+    nickname: Missfeather
+    site: https://www.missfeather.com/
     meta:
 
 # 页脚信息

@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Dylan
 subtitle: ''
-description: ''
+description: 'Hi there!'
 keywords:
-author: John Doe
+author: Dylan
 language: en
 timezone: ''
 
@@ -40,16 +40,16 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: ''
   wrap: true
-  hljs: false
+  hljs: true
 prismjs:
   enable: false
   preprocess: true
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: oranges
+theme: cactus
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
