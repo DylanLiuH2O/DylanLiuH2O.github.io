@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/probberechts
+projects_url: https://github.com/DylanLiuH2O
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -16,8 +16,9 @@ direction: ltr
 nav:
   home: /
   about: /about/
+  Categories: /categories/
   articles: /archives/
-  projects: http://github.com/probberechts
+  projects: https://github.com/DylanLiuH2O
 
 
 # Links to your social media accounts.
@@ -29,24 +30,27 @@ nav:
 social_links:
   -
     icon: github
-    link: http://github.com/probberechts/cactus-dark
+    link: https://github.com/DylanLiuH2O
+  # -
+  #   icon: twitter
+  #   link: /
+  # -
+  #   icon: facebook
+  #   link: /
   -
-    icon: twitter
-    link: /
-  -
-    icon: facebook
-    link: /
+    icon: qq
+    link: /about/
   -
     icon: mail
-    link: mailto:name@email.com
-  -
-    icon: mastodon
-    label: mastodon.social
-    link: https://mastodon.social/@alice
-  -
-    icon: mastodon
-    label: fosstodon.org
-    link: https://fosstodon.org/@alice
+    link: mailto:dylanliuh2o@foxmail.com
+  # -
+  #   icon: mastodon
+  #   label: mastodon.social
+  #   link: https://mastodon.social/@alice
+  # -
+  #   icon: mastodon
+  #   label: fosstodon.org
+  #   link: https://fosstodon.org/@alice
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -58,7 +62,7 @@ tags_overview: false
 #   - post_count: whether to show only the x most recent posts.
 #   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
-  show_all_posts: false
+  show_all_posts: true
   post_count: 5
   sort_updated: false
 
@@ -74,12 +78,12 @@ archive:
 # Options:
 #   - show_updated: show the last modification date.
 post:
-  show_updated: false
+  show_updated: true
 
 # Customize the copyright years
 # Note: if start_year/end_year not provided, will use current year.
 copyright:
-  start_year: 2016
+  start_year: 2021
   end_year:
 
 # Customize the 404 page
@@ -107,9 +111,9 @@ logo:
   enabled: true
   width: 50
   height: 50
-  url: /images/logo.png
+  url: /images/2.jpg
   gravatar: false
-  grayout: true
+  grayout: false
 
 # Customize the favicons.
 # Cactus supports a limited set of the three most important icons:
@@ -122,13 +126,13 @@ logo:
 #   - gravatar: whether to create a favicon from your Gravatar
 favicon:
   desktop:
-    url: /images/favicon.ico
+    url: /images/2.jpg
     gravatar: false
   android:
-    url: /images/favicon-192x192.png
+    url: /images/2.jpg
     gravatar: false
   apple:
-    url: /images/apple-touch-icon.png
+    url: /images/2.jpg
     gravatar: false
 
 # The color scheme that should be used to highlight codeblocks.
@@ -138,7 +142,7 @@ favicon:
 # Set the color scheme.
 # Available color schemes are 'dark', 'light', 'classic' and 'white'.
 # Alternatively, add your own custom color scheme to source/css/_colors.
-colorscheme: dark
+colorscheme: classic
 
 # Maximal width of the page in rem units.
 page_width: 48
@@ -165,7 +169,7 @@ open_graph:
 
 # Enable MathJax support for Latex
 mathjax:
-  enabled: false
+  enabled: true
 
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
 disqus:
